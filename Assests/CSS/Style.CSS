@@ -35,6 +35,13 @@ img{
     left: 30%;
     z-index: 1;
 }
+input{
+    font-family: 'Roboto Slab', serif;
+    color: Purple;
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+}
 
 select{
     font-family: 'Roboto Slab', serif;
@@ -43,4 +50,7 @@ select{
     color: white;
     font-size: 20px;
 
+}
+#div3{
+    color:purple;
 }
