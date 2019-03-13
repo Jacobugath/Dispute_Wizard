@@ -1,0 +1,45 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1483206048520-2321c1a5fb36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto Slab', serif;
+    color: White;
+    font-size: 27px;
+}
+#div1{
+    background-color: Black;
+    padding: 5%;
+    width: 33%;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 33%;
+}
+button{
+    font-family: 'Roboto Slab', serif;
+    color: White;
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+}
+button:hover{
+    background-color: mediumorchid;
+}
+button:active{
+    background-color: plum;
+}
+img{
+    width: 100px;
+    position: Absolute;
+    top: 10%;
+    left: 30%;
+    z-index: 1;
+}
+
+select{
+    font-family: 'Roboto Slab', serif;
+    color: White;
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+}
