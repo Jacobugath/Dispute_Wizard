@@ -10,7 +10,7 @@ switch (Btn1.text()){
     Btn1.text("I Have Read The ZD Ticket");
     break;
     case "I Have Read The ZD Ticket":
-    Div3.append($("#orderNumber").text);
+    Div3.append($("#orderNumber").val());
     Div2.text("Well Done. Now take a look and see if there are any other open or recent tickets regarding this claim. Give those a full read as well.")
     Btn1.text("I Have Read all related ZD Tickets");
     break;
