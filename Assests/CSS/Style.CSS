@@ -53,4 +53,9 @@ select{
 }
 #div3{
     color:purple;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 200px;
 }
