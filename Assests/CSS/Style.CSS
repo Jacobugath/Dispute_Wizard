@@ -61,4 +61,18 @@ select{
     height: 100%;
     opacity: .5;
     text-align: center;
+    z-index: 2;
+}
+
+#div4{
+    color:purple;
+    position: absolute;
+    top: 0;
+    left: 0;
+   background-color: white;
+    width: 200px;
+    height: 100%;
+    z-index: 1;
+    text-align: center;
+
 }
