@@ -59,4 +59,6 @@ select{
     background-image: url(https://images.unsplash.com/photo-1475965894430-b05c9d13568a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80);
     width: 200px;
     height: 100%;
+    opacity: .5;
+    text-align: center;
 }
