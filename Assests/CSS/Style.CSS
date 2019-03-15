@@ -62,6 +62,7 @@ select{
     opacity: .5;
     text-align: center;
     z-index: 2;
+    font-weight: bold;
 }
 
 #div4{
@@ -74,5 +75,6 @@ select{
     height: 100%;
     z-index: 1;
     text-align: center;
+    font-weight: bold;
 
 }
