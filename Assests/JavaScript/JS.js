@@ -20,12 +20,12 @@ switch (Btn1.text()){
     Btn1.text("Submit");
     break;
     case "Submit":
-    Div3.append("<br><br><hr><u>GMV:</u> "+$("#gmv").val()+"<br>This buyer tends to buyer from "+$("#buysFrom").val()+"<br> <u>Experience Level:</u> "+ $("#experience").val());
+    Div3.append("<br><br><hr><u>GMV:</u> "+$("#gmv").val()+"<br><br><br>This buyer tends to buyer from "+$("#buysFrom").val()+"<br><br><br> <u>Experience Level:</u> "+ $("#experience").val());
     Div2.html("You Rock!! Now pull up this order in Admin and give me the following info:<br><br>Buyer's First Name: <input type='text' id='name'> <br><br> Approximate Ship Date: <input type='text' id='shipDate'><br><br>Final Bid Price: <input type='text' id='finalBid'><br><br>Listing's Condition: <input type='text' id='condition'>")
     Btn1.text("I've Given You Everything You've Asked For");
     break;
     case "I've Given You Everything You've Asked For":
-    Div3.append("<hr><br><br><u>Buyer's Name:</u> "+$("#name").val()+"<br><u>Ship Date:</u> "+$("#shipDate").val()+"<br><u>Final Bid:</u> "+$("#finalBid").val()+"<br><u>Condition:</u> "+$("#condition").val());
+    Div3.append("<hr><br><br><br><br><u>Buyer's Name:</u> "+$("#name").val()+"<br><br><br><u>Ship Date:</u> "+$("#shipDate").val()+"<br><br><br><u>Final Bid:</u> "+$("#finalBid").val()+"<br><br><br><u>Condition:</u> "+$("#condition").val());
     Div2.text("You're doing great! Now take a look again at the ZD Ticket. Is the requester correct? Are there any people being CC'd that need to be removed? If so, make those updates!");
     Btn1.text("I've Made All Needed Changes To The Requestor and CC Fields");
 
