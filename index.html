@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyBkB56gv_inWaq9gQADvRNFnWIouiM90us",
+            authDomain: "dispute-wizard.firebaseapp.com",
+            databaseURL: "https://dispute-wizard.firebaseio.com",
+            projectId: "dispute-wizard",
+            storageBucket: "dispute-wizard.appspot.com",
+            messagingSenderId: "602165265747"
+          };
+          firebase.initializeApp(config);
+        </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./Assests/CSS/Reset.CSS">
@@ -13,9 +26,9 @@
 </head>
 <body>
 <img src="./Assests/Images/Wizard.png" alt="Dispute wizard">
-<div id="div1"><div id="div2">Hello. My Name is Xenopheliounous. I am a Dispute Wizard.  I'm here to help you work through the disputes assigned to you. Let's get started.</div> <br><br><br><button type="button"id="btn1">I Am Ready to Start, and Have a Dispute Ticket Pulled Up in Zendesk.</button><br><br><button type='button' id="btn2">Skip This Step (Not Reccomended)</button><hr> </div><div id="div3"></div></div><div id="div4"></div>
-
+<div id="div1"><div id="div2">Hello. My Name is Xenopheliounous. I am a Dispute Wizard.  I'm here to help you work through the disputes assigned to you. Let's get started.</div> <br><br><br><button type="button"id="btn1">I Am Ready to Start, and Have a Dispute Ticket Pulled Up in Zendesk.</button><br><br><button type='button' id="btn2">Skip This Step (Not Recommended)</button><hr> </div><div id="div3"></div></div><div id="div4"></div><div id="div5"><br><textarea id="textarea"></textarea><br><button id="sub">Submit</button></div><div id="div6"><br>Notes:<hr><div>
 
 <script src="./Assests/JavaScript/JS.js"></script>
 </body>
+
 </html>
