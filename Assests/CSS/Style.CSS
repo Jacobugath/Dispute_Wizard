@@ -1,22 +1,41 @@
+body:before {
+	content:"";
+	position:fixed;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	z-index:-1;
+	background:#FDF6FD;
+	background: linear-gradient(to right, #FDF6FD, #FDCBFD) ;
+}
+
+
 body{
-    background-image: url("../Images/subtle_white_feathers.png");
     font-family: 'Roboto Slab', serif;
-    color: White;
+    color: #FDF6FD;
     font-size: 27px;
+    content:"";
+	position:fixed;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	z-index:-1;
 }
 #div1{
-    background-color: Black;
+    background-color: #400040;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 5%;
-    width: 33%;
     text-align: center;
-    position: absolute;
-    top: 10%;
-    left: 33%;
+    Margin-top: 5%;
 }
 button{
     font-family: 'Roboto Slab', serif;
     color: White;
-    background-color: purple;
+    background-color: #800080;
     color: white;
     font-size: 20px;
 }
@@ -29,14 +48,14 @@ button:active{
 img{
     width: 100px;
     position: Absolute;
-    top: 10%;
-    left: 30%;
+    top: 1%;
+    left: 1%;
     z-index: 1;
 }
 input{
     font-family: 'Roboto Slab', serif;
-    color: Purple;
-    background-color: white;
+    color: #800080;
+    background-color: #FDF6FD;
     font-size: 20px;
     text-align: center;
 }
@@ -44,48 +63,43 @@ input{
 select{
     font-family: 'Roboto Slab', serif;
     color: White;
-    background-color: purple;
     color: white;
     font-size: 20px;
 
 }
 #div3{
-    color:purple;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url("../Images/white-waves.png");
-    width: 200px;
-    height: 100%;
+    color:#800080;
+
     text-align: center;
     font-weight: bold;
 }
 #div5{
-    color:purple;
-    position: absolute;
-    top: 50%;
-    right: 0;
-    background-image: url("../Images/white-waves.png");
-    width: 200px;
-    height: 50%;
+    color:#800080;
+
     text-align: center;
     font-weight: bold;
 }
 textarea{
     height: 55%;
-    width: 90%;
-    color:purple;
+    width: 40%;
+    color:#800080;
     font-size: 20px;
     font-family: 'Roboto Slab', serif;
+    background-color: #FDF6FD;
+    Margin-left: 50%
 }
 #div6{
-    color:purple;
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-image: url("../Images/white-waves.png");
+    color:#800080;
+
     width: 200px;
     height: 50%;
     text-align: center;
     font-weight: bold;
+}
+select{
+    background-color:#FDF6FD;
+    color: #400040;
+}
+#sub{
+    margin-left: 50%;
 }
