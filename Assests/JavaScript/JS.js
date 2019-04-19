@@ -73,6 +73,7 @@ switch (Btn1.text()){
     break;
     }
     else{
+        getData(number);
         Div2.html("Do What You Think Is Best. I Trust You.");
         Btn1.text("Start Over");
         break;
