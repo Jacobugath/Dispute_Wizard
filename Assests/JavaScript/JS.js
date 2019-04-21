@@ -13,10 +13,11 @@ function getData(number){
     var ref = firebase.database().ref('Order Number/' + number);
     ref.once("value").then(function(snapshot){
         console.log(number);
-        console.log(snapshot.child("condition").val())
-        Div3.append("<hr><hr><hr><h1>Buyer Info</h1><hr><u>Name:</u> "+snapshot.child("name").val()+"<br><u>GMV:</u> "+snapshot.child("gmv").val()+"<br><u>Experience:</u> "+snapshot.child("experience").val()+"<hr><hr><hr><h1>Order Info</h1><hr><u>Ship Date:</u> "+snapshot.child("shipDate").val()+"<br><u>Final Bid:</u> "+snapshot.child("finalBid").val()+"<br><u>Condition:</u> "+snapshot.child("condition").val()  +"<br><u>Status:</u> "+snapshot.child("status").val()+"<hr><hr><hr>");
-
-
+        console.log(snapshot.child("condition").val());
+        if (snapshot.exists()){
+        Div3.append("<h1>Buyer Info</h1><hr><u>Name:</u> "+snapshot.child("name").val()+"<br><u>GMV:</u> "+snapshot.child("gmv").val()+"<br><u>Experience:</u> "+snapshot.child("experience").val()+"<h1>Order Info</h1><hr><u>Ship Date:</u> "+snapshot.child("shipDate").val()+"<br><u>Final Bid:</u> "+snapshot.child("finalBid").val()+"<br><u>Condition:</u> "+snapshot.child("condition").val()  +"<br><u>Status:</u> "+snapshot.child("status").val()+"<hr>");
+        }
+        else Div3.append("(Not yet in database) <br>")
     });
 }
 
@@ -51,7 +52,9 @@ switch (Btn1.text()){
     case "There you go.":
     Div3.append
     number= $("#orderNumber").val();
+
     Div3.append(number);
+    getData(number);
     console.log(number);
     Div2.html("Good. Now read through the entire ticket from top to bottom no matter how boring it is. Let me know when you have that done.")
     Btn1.text("I Have Read The ZD Ticket");
