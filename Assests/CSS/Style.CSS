@@ -1,26 +1,24 @@
 body:before {
-        content:"";
-        position:fixed;
-        left:0;
-        top:0;
-        right:0;
-        bottom:0;
-        z-index:-1;
-        background: linear-gradient( #d6f2e0, #0b2212) ;
+    content:"";
+    position:fixed;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    z-index:-1;
+    background: linear-gradient( #d6f2e0, #0b2212) ;
     }
-
-
     body{
         font-family: 'Roboto Slab', serif;
         color: #FDF6FD;
         font-size: 27px;
         content:"";
-        position:fixed;
-        left:0;
-        top:0;
-        right:0;
-        bottom:0;
-        z-index:-1;
+position:fixed;
+left:0;
+top:0;
+right:0;
+bottom:0;
+z-index:-1;
     }
     #div1{
         background-color: #50c878;
@@ -32,6 +30,7 @@ body:before {
         Margin-top: 5%;
         background: linear-gradient(to left, #8cdba6, #144023) ;
     }
+
     button{
         font-family: 'Roboto Slab', serif;
         color: White;
