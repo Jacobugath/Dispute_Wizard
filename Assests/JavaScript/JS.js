@@ -17,7 +17,7 @@ function getData(number){
         if (snapshot.exists()){
         Div3.append("<h1>Buyer Info</h1><hr><u>Name:</u> "+snapshot.child("name").val()+"<br><u>GMV:</u> "+snapshot.child("gmv").val()+"<br><u>Experience:</u> "+snapshot.child("experience").val()+"<h1>Order Info</h1><hr><u>Ship Date:</u> "+snapshot.child("shipDate").val()+"<br><u>Final Bid:</u> "+snapshot.child("finalBid").val()+"<br><u>Condition:</u> "+snapshot.child("condition").val()  +"<br><u>Status:</u> "+snapshot.child("status").val()+"<hr>");
         }
-        else Div3.append("(Not yet in database) <br>")
+        else Div3.append("<br> (Not yet in database) <br>")
     });
 }
 
@@ -76,7 +76,6 @@ switch (Btn1.text()){
     break;
     }
     else{
-        getData(number);
         Div2.html("Do What You Think Is Best. I Trust You.");
         Btn1.text("Start Over");
         break;

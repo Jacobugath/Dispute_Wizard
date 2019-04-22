@@ -6,7 +6,7 @@ body:before {
     right:0;
     bottom:0;
     z-index:-1;
-    background: linear-gradient( #d6f2e0, #0b2212) ;
+    background-image: url('../Images/pool_table.png')
     }
     body{
         font-family: 'Roboto Slab', serif;
@@ -27,8 +27,8 @@ z-index:-1;
         margin-right: auto;
         padding: 5%;
         text-align: center;
-        Margin-top: 5%;
-        background: linear-gradient(to left, #8cdba6, #144023) ;
+        Margin-top: 2%;
+        background: linear-gradient( #2c8a4b, #194e2b) ;
     }
 
     button{
@@ -53,7 +53,7 @@ z-index:-1;
     }
     input{
         font-family: 'Roboto Slab', serif;
-        color: #50c878;
+        color: #010402;
         background-color: #f4fcf7;
         font-size: 20px;
         text-align: center;
@@ -75,22 +75,24 @@ z-index:-1;
         background-color: #0f311b;
     }
     #div5{
-        color:#50c878;
+
 
         text-align: center;
         font-weight: bold;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
     }
     textarea{
         height: 55%;
         width: 40%;
-        color:#50c878;
+        color:#010402;
         font-size: 20px;
         font-family: 'Roboto Slab', serif;
         background-color: #f4fcf7;
-        Margin-left: 50%
+
     }
     #div6{
-        color:#50c878;
 
         width: 200px;
         height: 50%;
@@ -99,8 +101,5 @@ z-index:-1;
     }
     select{
         background-color:#f4fcf7;
-        color: #50c878;
-    }
-    #sub{
-        margin-left: 50%;
+
     }
