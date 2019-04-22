@@ -22,10 +22,10 @@ z-index:-1;
     }
     #div1{
         background-color: #50c878;
-        width: 50%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
-        padding: 5%;
+        padding: 2%;
         text-align: center;
         Margin-top: 2%;
         background: linear-gradient( #2c8a4b, #194e2b) ;
@@ -61,18 +61,20 @@ z-index:-1;
 
     select{
         font-family: 'Roboto Slab', serif;
-        color: #f4fcf7;
-        color: #f4fcf7;
+        background-color: #f4fcf7;
+
         font-size: 20px;
+        color:#010402
 
     }
     #div3{
-
-
+        background: linear-gradient( #236c3b, #0f301b) ;
         text-align: center;
         font-weight: bold;
-        float: right;
-        background-color: #0f311b;
+        float: left;
+         width: 60%;
+         height: 50%;
+         margin-left: 5%;
     }
     #div5{
 
@@ -94,10 +96,12 @@ z-index:-1;
     }
     #div6{
 
-        width: 200px;
+        width: 30%;
         height: 50%;
         text-align: center;
         font-weight: bold;
+        float: left;
+        background: linear-gradient( #236c3b, #0f301b) ;
     }
     select{
         background-color:#f4fcf7;
