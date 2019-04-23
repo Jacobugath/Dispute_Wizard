@@ -22,14 +22,14 @@ z-index:-1;
     }
     #div1{
         background-color: #50c878;
-        width:64%;
+        width:65%;
         margin-left: auto;
         margin-right: auto;
-        padding: 2%;
+
         text-align: left;
         Margin-top: 5%;
         background-color: #277b44;
-        padding: 10%;
+        padding: 5%;
     }
 
     button{
@@ -70,23 +70,19 @@ z-index:-1;
     }
     #div3{
         background-color:  #277b44;
-        text-align: center;
+
         font-weight: bold;
-        float: left;
-         width: 54%;
-         height: 50%;
 
+         width: 65%;
+         height: 35%;
+         padding: 5%;
 
-    }
-    #div5{
-
-
-        text-align: center;
-        font-weight: bold;
+         margin-left: auto;
         margin-right: auto;
-        margin-left: auto;
-        text-align: center;
+
+
     }
+
     textarea{
         height: 55%;
         width: 80%;
@@ -97,14 +93,15 @@ z-index:-1;
 
     }
     #div6{
-        margin-left: 8%;
-        width: 30%;
+        margin-left: 15%;
+        width: 22%;
         height: 50%;
-        text-align: center;
+        padding-left:2%;
         font-weight: bold;
         float: left;
         background-color:  #277b44;}
     select{
         background-color: #f4fcf7;
+
 
     }
