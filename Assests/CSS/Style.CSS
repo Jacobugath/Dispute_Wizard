@@ -28,13 +28,13 @@ z-index:-1;
         padding: 2%;
         text-align: center;
         Margin-top: 2%;
-        background: linear-gradient( #2c8a4b, #194e2b) ;
+        background-color: #277b44;
     }
 
     button{
         font-family: 'Roboto Slab', serif;
         color: #343434;
-        background-color: #42c26d;
+        background-color: #b8e8c9;
         font-size: 20px;
     }
     button:hover{
@@ -42,6 +42,7 @@ z-index:-1;
     }
     button:active{
         background-color: #0f311b;
+        color: #b8e8c9;
     }
     img{
         width: 100px;
@@ -67,7 +68,7 @@ z-index:-1;
 
     }
     #div3{
-        background: linear-gradient( #236c3b, #0f301b) ;
+        background-color:  #277b44;
         text-align: center;
         font-weight: bold;
         float: left;
@@ -100,9 +101,8 @@ z-index:-1;
         text-align: center;
         font-weight: bold;
         float: left;
-        background: linear-gradient( #236c3b, #0f301b) ;
-    }
+        background-color:  #277b44;}
     select{
-        background-color:#f4fcf7;
+        background-color: #f4fcf7;
 
     }
