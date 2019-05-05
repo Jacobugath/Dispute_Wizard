@@ -27,7 +27,7 @@ z-index:-1;
         margin-right: auto;
 
         text-align: left;
-        Margin-top: 5%;
+        Margin-top: 2%;
         background-color: #277b44;
         padding: 5%;
     }
@@ -57,51 +57,78 @@ z-index:-1;
         color: #010402;
         background-color: #f4fcf7;
         font-size: 20px;
-        text-align: center;
+
     }
 
     select{
         font-family: 'Roboto Slab', serif;
         background-color: #f4fcf7;
-
         font-size: 20px;
         color:#010402
-
     }
     #div3{
-        background-color:  #277b44;
-
         font-weight: bold;
-
-         width: 65%;
-         height: 35%;
-         padding: 5%;
-
-         margin-left: auto;
-        margin-right: auto;
-
-
+        padding:  0% 5% 5% 5%;
+        font-style: italic;
+        font-size: 20px;
     }
-
     textarea{
-        height: 55%;
-        width: 80%;
         color:#010402;
         font-size: 20px;
         font-family: 'Roboto Slab', serif;
         background-color: #f4fcf7;
-
     }
-    #div6{
-        margin-left: 15%;
-        width: 22%;
-        height: 50%;
-        padding-left:2%;
-        font-weight: bold;
-        float: left;
-        background-color:  #277b44;}
     select{
         background-color: #f4fcf7;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+        grid-template-rows: auto;
+        grid-row-gap: 1em;
+    }
+    .grida{
+        grid-column: 1/5;
+        grid-row: 1;
+    }
 
-
+    .gridb{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .gridbb{
+        grid-column: 2;
+        grid-row: 3;
+    }
+    .gridc{
+        grid-column: 3;
+        grid-row: 3;
+    }
+    .gridcb{
+        grid-column: 4;
+        grid-row: 3;
+    }
+    .gridd{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .griddb{
+        grid-column: 2/5;
+        grid-row: 2;
+    }
+    .gride{
+        grid-column: 1;
+        grid-row: 4;
+    }
+    .grideb{
+        grid-column: 2;
+        grid-row: 4;
+    }
+    .gridec{
+        grid-column: 3;
+        grid-row: 4;
+    }
+    .grided{
+        grid-column: 4;
+        grid-row: 4;
     }
