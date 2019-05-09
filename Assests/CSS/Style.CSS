@@ -6,11 +6,11 @@ body:before {
     right:0;
     bottom:0;
     z-index:-1;
-    background-color: #343434;
+    background-color: #eeeeee;
     }
     body{
         font-family: 'Roboto Slab', serif;
-        color: #FDF6FD;
+        color: #6c6c6c;
         font-size: 27px;
         content:"";
 position:fixed;
@@ -21,7 +21,7 @@ bottom:0;
 z-index:-1;
     }
     #div1{
-        background-color: #50c878;
+
         width:65%;
         margin-left: auto;
         margin-right: auto;
@@ -30,20 +30,23 @@ z-index:-1;
         Margin-top: 2%;
         background-color: #277b44;
         padding: 5%;
+        color:#eeeeee;
+        border-radius: 30px;
     }
 
     button{
         font-family: 'Roboto Slab', serif;
-        color: #343434;
-        background-color: #b8e8c9;
+        color: #277b44;
+        background-color: #fff;
         font-size: 20px;
+        border-radius: 30px;
     }
     button:hover{
-        background-color: #35a85b;
+        background-color: #868e96;
+
     }
     button:active{
-        background-color: #0f311b;
-        color: #b8e8c9;
+        background-color: #343a40;
     }
     img{
         width: 100px;
@@ -54,17 +57,18 @@ z-index:-1;
     }
     input{
         font-family: 'Roboto Slab', serif;
-        color: #010402;
-        background-color: #f4fcf7;
+        color: #fff;
+        background-color: #757575;
         font-size: 20px;
 
     }
 
     select{
         font-family: 'Roboto Slab', serif;
-        background-color: #f4fcf7;
+        background-color: #757575;
         font-size: 20px;
-        color:#010402
+        color:#fff;
+        border-radius: 30px;
     }
     #div3{
         font-weight: bold;
@@ -76,25 +80,26 @@ z-index:-1;
         color:#010402;
         font-size: 20px;
         font-family: 'Roboto Slab', serif;
-        background-color: #f4fcf7;
+        background-color: #eeeeee;
+        border-radius: 30px;
     }
-    select{
-        background-color: #f4fcf7;
-    }
+
     .container{
         display: grid;
-        grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+        grid-template-columns: 1fr 30% 1fr 30% ;
         grid-template-rows: auto;
         grid-row-gap: 1em;
     }
     .grida{
         grid-column: 1/5;
         grid-row: 1;
+
     }
 
     .gridb{
         grid-column: 1;
         grid-row: 3;
+        text-align: right;
     }
     .gridbb{
         grid-column: 2;
@@ -103,6 +108,7 @@ z-index:-1;
     .gridc{
         grid-column: 3;
         grid-row: 3;
+        text-align: right;
     }
     .gridcb{
         grid-column: 4;
@@ -111,6 +117,7 @@ z-index:-1;
     .gridd{
         grid-column: 1;
         grid-row: 2;
+        text-align: right;
     }
     .griddb{
         grid-column: 2/5;
@@ -119,6 +126,7 @@ z-index:-1;
     .gride{
         grid-column: 1;
         grid-row: 4;
+        text-align: right;
     }
     .grideb{
         grid-column: 2;
@@ -127,8 +135,12 @@ z-index:-1;
     .gridec{
         grid-column: 3;
         grid-row: 4;
+        text-align: right;
     }
     .grided{
         grid-column: 4;
         grid-row: 4;
+    }
+    .gridf, .gridg, .gridfc, .gridgc{
+        text-align: right;
     }
