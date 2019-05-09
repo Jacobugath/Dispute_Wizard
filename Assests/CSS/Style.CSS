@@ -32,6 +32,7 @@ z-index:-1;
         padding: 5%;
         color:#eeeeee;
         border-radius: 30px;
+        background: linear-gradient(#277b44, #154124);
     }
 
     button{
