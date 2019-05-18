@@ -146,28 +146,28 @@ function iframe(){
         $('.iframe').html( "<a href='https://almo.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='_blank'>Admin</a>");
         break;
         case('BST'):
-        $('.iframe').html( "<a href='https//:bestbuy.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
+        $('.iframe').html( "<a href='https://bestbuy.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
         break;
         case('CST'):
-        $('.iframe').html( "<a href='https//:costco.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
+        $('.iframe').html( "<a href='https://costco.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
         break;
         case('HMD'):
-        $('.iframe').html( "<a href='https//:homedepot.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
+        $('.iframe').html( "<a href='https://homedepot.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
         break;
         case('HBC'):
-        $('.iframe').html( "<a href='https//:hbc.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
+        $('.iframe').html( "<a href='https://hbc.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
         break;
         case('JCP'):
-        $('.iframe').html( "<a href='https//:jcpenney.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
+        $('.iframe').html( "<a href='https://jcpenney.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
         break;
         case('JHN'):
-        $('.iframe').html( "<a href='https//:jl.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
+        $('.iframe').html( "<a href='https://jl.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
         break;
         case('MJR'):
-        $('.iframe').html( "<a href='https//:meijer.bstock.com/index.php/admin/sales_order/view/order_id/206/"+num+"' target='blank'>Admin</a>");
+        $('.iframe').html( "<a href='https://meijer.bstock.com/index.php/admin/sales_order/view/order_id/206/"+num+"' target='blank'>Admin</a>");
         break;
         case('PHB'):
-        $('.iframe').html( "<a href='https//:phobio.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
+        $('.iframe').html( "<a href='https://phobio.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
         break;
         case('SUP'):
         $('.iframe').html( "<a href='https://bstocksupply.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
