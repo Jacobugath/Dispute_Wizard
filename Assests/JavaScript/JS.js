@@ -27,6 +27,7 @@ function getData(number){
 
         }
     });
+    iframe();
 }
 
 
@@ -44,10 +45,16 @@ function getData(number){
         sType: sType,
         dDate: dDate
     });
+
   }
 
 function submit(){
     writeData($('#onumber').val(), $("#bGMV").val(), $("#bname").val(), $("#sDate").val(), $("#fBid").val(), $("#lCondition").val(), $('#status').val(), $('#iType').val(), $('#oProblem').val(), $('#sType').val(), $('#dDate').val());
+}
+
+function get(){
+    let number= $("#onumber").val();
+    getData(number);
 }
 function btnFuc(){
 
@@ -126,6 +133,55 @@ function skip(){
 
     }
     }
-Btn1.click(btnFuc);
-Btn2.click(skip);
 Sub.click(submit);
+
+function iframe(){
+    let site = $("#onumber").val().substring(0,3)
+    let num = $("#onumber").val().substring(3)
+    console.log(num);
+    switch(site){
+
+        case('ALM'):
+        console.log('alm')
+        $('.iframe').html( "<a href='https://almo.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='_blank'>Admin</a>");
+        break;
+        case('BST'):
+        $('.iframe').html( "<a href='https//:bestbuy.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
+        break;
+        case('CST'):
+        $('.iframe').html( "<a href='https//:costco.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
+        break;
+        case('HMD'):
+        $('.iframe').html( "<a href='https//:homedepot.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
+        break;
+        case('HBC'):
+        $('.iframe').html( "<a href='https//:hbc.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
+        break;
+        case('JCP'):
+        $('.iframe').html( "<a href='https//:jcpenney.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
+        break;
+        case('JHN'):
+        $('.iframe').html( "<a href='https//:jl.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
+        break;
+        case('MJR'):
+        $('.iframe').html( "<a href='https//:meijer.bstock.com/index.php/admin/sales_order/view/order_id/206/"+num+"' target='blank'>Admin</a>");
+        break;
+        case('PHB'):
+        $('.iframe').html( "<a href='https//:phobio.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
+        break;
+        case('SUP'):
+        $('.iframe').html( "<a href='https://bstocksupply.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
+        break;
+
+
+    }
+    copyToClipboard("/view/order_id/"+num);
+}
+const copyToClipboard = str => {
+    const el = document.createElement('textarea');
+    el.value = str;
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand('copy');
+    document.body.removeChild(el);
+  };
