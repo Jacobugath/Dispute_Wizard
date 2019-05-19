@@ -7,7 +7,7 @@ body:before {
     bottom:0;
     z-index:-1;
     background-color: #eeeeee;
-    background: linear-gradient(#143e22,#010301 );
+
     }
     body{
         font-family: 'Roboto Slab', serif;
@@ -20,6 +20,7 @@ top:0;
 right:0;
 bottom:0;
 z-index:-1;
+        background-color: #fffdd0;
     }
     #div1{
 
