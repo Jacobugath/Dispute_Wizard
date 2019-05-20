@@ -175,7 +175,7 @@ function iframe(){
 
 
     }
-    copyToClipboard("/view/order_id/"+num);
+    $('.iframe').append(num);
 }
 const copyToClipboard = str => {
     const el = document.createElement('textarea');
