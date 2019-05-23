@@ -164,7 +164,7 @@ function iframe(){
         $('.iframe').html( "<a href='https://jl.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
         break;
         case('MJR'):
-        $('.iframe').html( "<a href='https://meijer.bstock.com/index.php/admin/sales_order/view/order_id/206/"+num+"' target='blank'>Admin</a>");
+        $('.iframe').html( "<a href='https://meijer.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
         break;
         case('PHB'):
         $('.iframe').html( "<a href='https://phobio.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
@@ -172,7 +172,9 @@ function iframe(){
         case('SUP'):
         $('.iframe').html( "<a href='https://bstocksupply.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
         break;
-
+        case('ZLL'):
+        $('.iframe').html("<a href='https://zulily.bstock.com/index.php/admin/sales_order/"+num+"' target = 'blank'>Admin</a>");
+        break;
 
     }
     $('.iframe').append(" " + site +num);
