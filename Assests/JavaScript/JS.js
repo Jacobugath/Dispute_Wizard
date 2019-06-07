@@ -32,24 +32,15 @@ function getData(number){
 
 
 
-  function writeData(number, gmv, name, shipDate, finalBid, condition, status, iType, oProblem, sType, dDate) {
+  function writeData(number) {
     firebase.database().ref('Order Number/' + number).set({
-        gmv: gmv,
-        name: name,
-        shipDate: shipDate,
-        finalBid: finalBid,
-        condition: condition,
-        status: status,
-        iType: iType,
-        oproblem: oProblem,
-        sType: sType,
-        dDate: dDate
+        dDate: number
     });
 
   }
 
 function submit(){
-    writeData($('#onumber').val(), $("#bGMV").val(), $("#bname").val(), $("#sDate").val(), $("#fBid").val(), $("#lCondition").val(), $('#status').val(), $('#iType').val(), $('#oProblem').val(), $('#sType').val(), $('#dDate').val());
+    writeData($('#onumber').val());
 }
 
 function get(){
@@ -149,7 +140,7 @@ function iframe(){
         $('.iframe').html( "<a href='https://bestbuy.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
         break;
         case('CST'):
-        $('.iframe').html( "<a href='https://costco.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a><br>Atlanta - Jennifer Adye <br> Dallas - Jacob <br> Ecomm - Marcus <br> Frederick - Kesha <br> Mira Loma - Juan Cruz <br> Monroe - Bill Winter<br> Morris - Arnulfo <br> Salt Lake - Mike<br> Sumner - Justin<br> Tolleson - Christine<br> Tracey - Becky<br> Van Buren - Jessica<br> West Palm - Verna");
+        $('.iframe').html( "<a href='https://costco.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>CST"+num+"<br>Atlanta - Jennifer Adye <br> Dallas - Jacob <br> Ecomm - Marcus <br> Frederick - Kesha <br> Mira Loma - Juan Cruz <br> Monroe - Bill Winter<br> Morris - Arnulfo <br> Salt Lake - Mike<br> Sumner - Justin<br> Tolleson - Christine<br> Tracey - Becky<br> Van Buren - Jessica<br> West Palm - Verna");
         break;
         case('HMD'):
         $('.iframe').html( "<a href='https://homedepot.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
