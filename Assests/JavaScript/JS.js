@@ -160,13 +160,13 @@ function iframe(){
         case('PHB'):
         $('.iframe').html( "<a href='https://phobio.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
         break;
-        case('SUP'):
+        case('SUP' || 'sup'):
         $('.iframe').html( "<a href='https://bstocksupply.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
         break;
-        case('ZLL'):
+        case('ZLL' || 'zll'):
         $('.iframe').html("<a href='https://zulily.bstock.com/index.php/admin/sales_order/"+num+"' target = 'blank'>Admin</a>");
         break;
-        case('WLG'):
+        case('WLG' || 'wlg'):
         $('.iframe').html("<a href='https://walgreens.bstock.com/index.php/admin/sales_order/"+num+"' target = 'blank'>Admin</a>");
         break;
 
