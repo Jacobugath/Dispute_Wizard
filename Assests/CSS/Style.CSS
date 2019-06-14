@@ -1,9 +1,13 @@
 
     body{
         font-family: 'Roboto Slab', serif;
-        color: #212529;
+
         font-size: 27px;
-        background-color: #f8f7f7;
+        background-image:
+   -webkit-radial-gradient(80% 10%, circle, #B6C8A9, transparent),
+   -webkit-radial-gradient(80% 50%, circle, #CFFFE5, transparent),
+   -webkit-radial-gradient(20% 80%, 40em 40em, #A5D8FF, transparent),
+   -webkit-radial-gradient(10% 10%, circle, #629460, transparent);
     }
     #div1{
 
@@ -23,25 +27,30 @@
     button{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: #fff;
+
         font-weight: 400;
-        background-color: #dc3545;
+        background-image: linear-gradient(#A5D8FF, #425666);
+
         font-size: 25px;
         text-align: center;
         vertical-align: middle;
-        border: 1px solid transparent;
+        border: 2px solid #1a68a8;
         padding: .375rem;
         border-radius: 5px;
         width: 150px;
         margin-left: 40px;
         margin-right: 10px;
         cursor: pointer;
+        box-shadow: 0px 4px 4px #83a26d;
+        text-shadow: 1px 1px black;
     }
     button:hover{
-        background-color: #868e96;
+        background-image: linear-gradient(#AEDBFF, #526C7F);
+
 
     }
     button:active{
-        background-color: #343a40;
+        background-image: linear-gradient(#94C2E5, #31404C);
 
     }
     img{
@@ -54,8 +63,9 @@
     input{
         font-family: 'Roboto Slab', serif;
 
-        background-color: #dee2e6;
+        background-color: #F6FBFF;
         font-size: 20px;
+        box-shadow: 0px 2px 2px #83a26d;
 
     }
 
