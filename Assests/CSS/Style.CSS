@@ -138,6 +138,11 @@
   -webkit-text-fill-color: transparent;
 
     }
+    .iframe{
+        background: radial-gradient(#1a68a8, #000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
     .gridcb{
         grid-column: 4;
         grid-row: 3;
