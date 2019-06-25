@@ -132,42 +132,45 @@ function iframe(){
     console.log(num);
     switch(site){
 
-        case('ALM'):
-        console.log('alm')
+        case('ALM' || 'alm'):
+
         $('.iframe').html( "<a href='https://almo.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='_blank'>Admin</a>");
         break;
-        case('BST'):
+        case('BST' || 'bst'):
         $('.iframe').html( "<a href='https://bestbuy.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
         break;
-        case('CST'):
+        case('CST' || 'cst'):
         $('.iframe').html( "<a href='https://costco.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>CST"+num+"<br>Atlanta - Jennifer Adye <br> Dallas - Jacob <br> Ecomm - Marcus <br> Frederick - Kesha <br> Mira Loma - Juan Cruz <br> Monroe - Bill Winter<br> Morris - Arnulfo <br> Salt Lake - Mike<br> Sumner - Justin<br> Tolleson - Christine<br> Tracey - Becky<br> Van Buren - Jessica<br> West Palm - Verna");
         break;
-        case('HMD'):
+        case('HMD' || 'hmd'):
         $('.iframe').html( "<a href='https://homedepot.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
         break;
-        case('HBC'):
+        case('HBC' || 'hbc'):
         $('.iframe').html( "<a href='https://hbc.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
         break;
-        case('JCP'):
+        case('JCP' || 'jcp'):
         $('.iframe').html( "<a href='https://jcpenney.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
         break;
-        case('JHN'):
+        case('JHN' || 'jhn'):
         $('.iframe').html( "<a href='https://jl.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
         break;
-        case('MJR'):
+        case('MJR' || 'mjr'):
         $('.iframe').html( "<a href='https://meijer.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
         break;
-        case('PHB'):
+        case('PHB' || 'phb'):
         $('.iframe').html( "<a href='https://phobio.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
         break;
         case('SUP' || 'sup'):
         $('.iframe').html( "<a href='https://bstocksupply.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
         break;
         case('ZLL' || 'zll'):
-        $('.iframe').html("<a href='https://zulily.bstock.com/index.php/admin/sales_order/"+num+"' target = 'blank'>Admin</a>");
+        $('.iframe').html("<a href='https://zulily.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target = 'blank'>Admin</a>");
         break;
         case('WLG' || 'wlg'):
-        $('.iframe').html("<a href='https://walgreens.bstock.com/index.php/admin/sales_order/"+num+"' target = 'blank'>Admin</a>");
+        $('.iframe').html("<a href='https://walgreens.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target = 'blank'>Admin</a>");
+        break;
+        case('gam' || 'GAM'):
+        $('.iframe').html("<a href='https://wholesale.gamestop.com/index.php/control/adminhtml_problemorder/edit/id/"+num+"' target = 'blank'>Admin</a>");
         break;
 
     }
