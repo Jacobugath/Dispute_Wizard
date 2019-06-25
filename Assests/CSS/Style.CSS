@@ -9,7 +9,10 @@
    -webkit-radial-gradient(80% 50%, circle, #CFFFE5, transparent),
    -webkit-radial-gradient(20% 80%, 40em 40em, #A5D8FF, transparent),
    -webkit-radial-gradient(10% 10%, circle, #629460, transparent),
-   -webkit-radial-gradient(1% 90%, circle, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent);
+   linear-gradient(to bottom right, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent),
+   linear-gradient(-90deg, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent);
+
+
 
    background-size: 100vw 110vh;
    background-position: center;
