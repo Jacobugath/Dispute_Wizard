@@ -1,3 +1,14 @@
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.datepicker');
+    var instances = M.Datepicker.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.datepicker').datepicker();
+  });
+
 var database = firebase.database();
 const Div1 = $("#div1");
 const Div2 = $("#div2");

@@ -35,42 +35,17 @@
 
     }
 
-    button{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: #fff;
 
-        font-weight: 400;
-        background-image: linear-gradient(#A5D8FF, #425666);
-
-        font-size: 25px;
-        text-align: center;
-        vertical-align: middle;
-        border: 2px solid #1a68a8;
-        padding: .375rem;
-        border-radius: 5px;
-        width: 150px;
-        margin-left: 40px;
-        margin-right: 10px;
-        cursor: pointer;
-        box-shadow: 0px 4px 4px #83a26d;
-        text-shadow: 1px 1px black;
-    }
-    button:hover{
-        background-image: radial-gradient(#AEDBFF, #526C7F);
-        box-shadow: 0px 6px 6px #83a26d;
-
-
-    }
-    button:active{
-        background-image: radial-gradient(#94C2E5, #31404C);
-        box-shadow: 1px 1px 1px #83a26d;
-    }
     img{
         width: 100px;
         position: Absolute;
         top: 1%;
         left: 1%;
         z-index: 1;
+    }
+    #cal{
+        background-color: teal;
+        text-align: center;
     }
     input{
         font-family: 'Roboto Slab', serif;
@@ -80,6 +55,7 @@
         font-size: 20px;
         box-shadow: 0px 2px 2px #83a26d;
         background-image: linear-gradient(#fff,#E6ECE1);
+        height: 2em !important;
 
     }
 
@@ -132,7 +108,7 @@
     .gridc{
         grid-column: 1;
         grid-row: 3;
-        text-align: right;
+
         background: radial-gradient(#1a68a8, #000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
