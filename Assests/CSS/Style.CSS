@@ -8,9 +8,7 @@
    -webkit-radial-gradient(90% 90%, circle, #B6C8A9, transparent),
    -webkit-radial-gradient(80% 50%, circle, #CFFFE5, transparent),
    -webkit-radial-gradient(20% 80%, 40em 40em, #A5D8FF, transparent),
-   -webkit-radial-gradient(10% 10%, circle, #629460, transparent),
-   linear-gradient(to bottom right, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent),
-   linear-gradient(-90deg, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent, #000, transparent);
+   -webkit-radial-gradient(10% 10%, circle, #629460, transparent);
 
 
 
@@ -44,13 +42,16 @@
         z-index: 1;
     }
     #cal{
-        background-color: #26a69a;
+        background-image: linear-gradient(to right,#A5D8FF, black);
         text-align: center;
         color: white;
         position: absolute;
         left: 0;
     }
-
+button{
+    background-color: #A5D8FF !important;
+    color: black !important;
+}
 
 
     select{
@@ -167,9 +168,20 @@ a{
     grid-row: 7/10;
 }
 .header{
-    background-color: teal;
+    background-image: linear-gradient(to right,#629460, #000);
     height: 10vh;
     font-size: 9vh;
-    color: White;
+     grid-column: 1;
+        grid-row: 5;
 
+        background: radial-gradient(#1a68a8, #000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.headerback{
+    height: 10vh;
+    font-size: 9vh;
+     grid-column: 1;
+        grid-row: 5;
+        background-image: linear-gradient(to right,#629460, #000);
 }
