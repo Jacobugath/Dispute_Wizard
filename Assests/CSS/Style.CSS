@@ -48,10 +48,6 @@
         position: absolute;
         left: 0;
     }
-button{
-    background-color: #A5D8FF !important;
-    color: black !important;
-}
 
 
     select{
@@ -183,5 +179,15 @@ a{
     font-size: 9vh;
      grid-column: 1;
         grid-row: 5;
-        background-image: linear-gradient(to right,#629460, #000);
+       background-color: #fff;
+       z-index: 2;
+       position: absolute;
+       top: 0;
+}
+.datepicker-date-display{
+    background: radial-gradient(#1a68a8, #000);
+}
+#but{
+    background-color: #A5D8FF !important;
+    color: black !important;
 }
