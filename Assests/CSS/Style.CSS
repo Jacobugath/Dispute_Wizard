@@ -5,9 +5,8 @@
         font-size: 27px;
         background-image:
 
-   -webkit-radial-gradient(80% 50%, circle, #5299D3, transparent),
-   -webkit-radial-gradient(20% 80%, 40em 40em, #A5D8FF, transparent),
-   -webkit-radial-gradient(10% 10%, circle, #0B5563, transparent);
+   -webkit-radial-gradient(80% 50%, circle, #2075DF, #1157CD);
+
 
 
 
@@ -99,15 +98,11 @@
         grid-column: 1;
         grid-row: 5;
 
-        background: radial-gradient(#1a68a8, #000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+        color: white;
 
     }
     .iframe{
-        background: radial-gradient(#1a68a8, #000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+      color: white;
     }
     .gridcb{
         grid-column: 4;
@@ -168,17 +163,20 @@ a{
     font-size: 9vh;
      grid-column: 1;
         grid-row: 5;
-
+    color: white;
  background: radial-gradient(#1a68a8, #000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+    background-image:
+
+        -webkit-radial-gradient(80% 50%, circle, #2075DF, #1157CD);
+     }
 .headerback{
     height: 10vh;
     font-size: 9vh;
      grid-column: 1;
         grid-row: 5;
-       background-color: #A5D8FF;
+        background-image:
+
+        -webkit-radial-gradient(80% 50%, circle, #2075DF, #1157CD);
        z-index: -1;
        position: fixed;
   top: 0;

@@ -180,6 +180,9 @@ function iframe(){
         case('WLG' || 'wlg'):
         $('.iframe').html("<a href='https://walgreens.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target = 'blank'>Admin</a>");
         break;
+        case('A2Z' || 'a2z'):
+        $('.iframe').html("<a href='https://a2z.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target = 'blank'>Admin</a>");
+        break;
         case('gam' || 'GAM'):
         $('.iframe').html("<a href='https://wholesale.gamestop.com/index.php/control/adminhtml_problemorder/edit/id/"+num+"' target = 'blank'>Admin</a>");
         break;
