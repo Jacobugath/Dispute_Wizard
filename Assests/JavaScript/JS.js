@@ -151,7 +151,7 @@ function iframe(){
         $('.iframe').html( "<a href='https://bestbuy.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
         break;
         case('CST' || 'cst'):
-        $('.iframe').html( "<a href='https://costco.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>CST"+num+"<br><hr>Atlanta - Jennifer Adye <br><hr> Dallas - Jacob <br><hr> Ecomm - Marcus <br><hr> Frederick - Kesha <br><hr> Mira Loma - Juan Cruz <br><hr> Monroe - Bill Winter<br><hr> Morris - Arnulfo <br><hr> Salt Lake - Mike<br> Sumner - Justin<br><hr> Tolleson - Christine<br><hr> Tracey - Becky<br><hr> Van Buren - Jessica<br><hr> West Palm - Verna");
+        $('.iframe').html( "<a href='https://costco.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>CST"+num+"<br><hr>Atlanta - Jennifer Adye <br><hr> Dallas - Jacob <br><hr> Ecomm - Marcus <br><hr> Frederick - Kesha <br><hr> Mira Loma - Juan Cruz <br><hr> Monroe - Bill Winter<br><hr> Morris - Arnulfo <br><hr> Salt Lake - Mike<br><hr> Sumner - Justin<br><hr> Tolleson - Christine<br><hr> Tracey - Becky<br><hr> Van Buren - Jessica<br><hr> West Palm - Verna");
         break;
         case('HMD' || 'hmd'):
         $('.iframe').html( "<a href='https://homedepot.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='blank'>Admin</a>");
