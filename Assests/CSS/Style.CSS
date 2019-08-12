@@ -8,7 +8,7 @@
    -webkit-radial-gradient(80% 50%, circle, #2075DF, #1157CD);
 
 
-
+    color: #373F51;
 
    background-size: 100% 500%;
    background-position: center;
@@ -40,9 +40,9 @@
         z-index: 1;
     }
     #cal{
-        background-image: linear-gradient(to right, #A5D8FF, #A5D8FF);
+        background-color: #2E86AB;
         text-align: center;
-        color: white;
+        color: #EAEAEA;
         position: absolute;
         left: 0;
     }
@@ -98,11 +98,11 @@
         grid-column: 1;
         grid-row: 5;
 
-        color: white;
+        color: #EAEAEA;
 
     }
     .iframe{
-      color: white;
+      color: #EAEAEA;
     }
     .gridcb{
         grid-column: 4;
@@ -163,7 +163,7 @@ a{
     font-size: 9vh;
      grid-column: 1;
         grid-row: 5;
-    color: white;
+    color: #EAEAEA;
  background: radial-gradient(#1a68a8, #000);
     background-image:
 
@@ -184,9 +184,9 @@ a{
   width: 100vw;
 }
 .datepicker-date-display{
-    background: radial-gradient(#1a68a8, #000);
+    background: radial-gradient(#2E86AB, #373F51);
 }
 #but{
-    background-color: #A5D8FF !important;
+    background-color: #2E86AB !important;
     color: black !important;
 }
