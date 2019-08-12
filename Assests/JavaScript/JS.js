@@ -142,7 +142,10 @@ function iframe(){
     let num = $("#onumber").val().substring(3)
     console.log(num);
     switch(site){
+        case('LWS' || 'lws'):
 
+        $('.iframe').html( "<a href='https://lowes.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='_blank'>Admin</a>");
+        break;
         case('ALM' || 'alm'):
 
         $('.iframe').html( "<a href='https://almo.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target='_blank'>Admin</a>");
@@ -186,9 +189,7 @@ function iframe(){
         case('gam' || 'GAM'):
         $('.iframe').html("<a href='https://wholesale.gamestop.com/index.php/control/adminhtml_problemorder/edit/id/"+num+"' target = 'blank'>Admin</a>");
         break;
-        case('lws'||'LWS'):
-        $('.iframe').html("<a href='https://lowes.bstock.com/index.php/admin/sales_order/view/order_id/"+num+"' target = 'blank'>Admin</a>");
-        break;
+
 
 
     }
